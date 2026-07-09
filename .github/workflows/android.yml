@@ -28,10 +28,13 @@ jobs:
           echo "debug.keystore.base64 not found, relying on default build behavior"
         fi
 
+    - name: Regenerate Gradle Wrapper (Fixes git/LFS binary corruption)
+      run: gradle wrapper --gradle-version 9.3.1
+
     - name: Set up Gradle
       uses: gradle/actions/setup-gradle@v4
       with:
-        validate-wrappers: false
+        validate-wrappers: true
 
     - name: Make gradlew executable
       run: chmod +x gradlew

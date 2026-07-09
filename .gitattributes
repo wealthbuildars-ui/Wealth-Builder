@@ -1,0 +1,16 @@
+# Set default behavior to automatic text/binary detection
+* text=auto
+
+# Explicitly declare binary files that should not be modified
+*.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.keystore binary
+
+# Explicitly set line endings for execution scripts
+gradlew text eol=lf
+gradlew.bat text eol=crlf
