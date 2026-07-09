@@ -1,0 +1,6 @@
+{
+  "name": "Wealth Builder",
+  "description": "Discover legitimate ways to earn money online through affiliate marketing, freelancing, digital products, and financial education with simulated/real Firebase Auth & Firestore integration, themed in professional green, white, and gold.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
